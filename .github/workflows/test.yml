@@ -5,7 +5,7 @@ on: push
 jobs:
     job1:
         name: First job
-        runs-on: Fedora
+        runs-on: Fedora-latest
         steps:
         - name: Step One
           uses: actions/checkout@v2
